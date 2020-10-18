@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+}
+
+.side-bar {
+  width: 300px;
+  background: #253141;
+  height: 100vh;
+}
+
+.chat {
+  width: calc(100vw - 300px);
+  background: #fff;
+}
+
+.side-header {
+  height: 100px;
+  background: #253141;
+  padding: 0 20px;
+}
+
+.side-menu {
+  background: #2f3e51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+}
+
+.main-header {
+  height: 100px;
+  background: #fff;
+  padding: 0 40px;
+}
+
+.main-chat {
+  background: #fafafa;
+  height: calc(100vh - 190px);
+  padding: 46px 40px 0;
+}
+
+.form {
+  background: #dddddd;
+  height: 90px;
+  padding: 20px 40px;
+}
